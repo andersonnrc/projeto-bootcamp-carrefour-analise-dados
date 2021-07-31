@@ -1,0 +1,17 @@
++-------------------------------------+------------------+---------+---------------------------------------------------------------+
+| CAMPO                               | TIPO DE CONTEÚDO | TAMANHO | DESCRIÇÃO                                                     |
++-------------------------------------+------------------+---------+---------------------------------------------------------------+
+| * EXERCICIO                         | Inteiro          |         | Exercício fiscal, o ano da despesa                            |
+| * CODIGO_UNIDADE_GESTORA            | Texto            |       6 | Código SIAF do Órgão (Unidade Gestora)                        |
+| * NUMERO_EMPENHO                    | Inteiro          |         | Número da Nota de Empenho                                     |
+| * NUMERO_AUTORIZACAO_PAGAMENTO      | Inteiro          |         | Número da Autorização de Pagamento                            |
+| TIPO_DESPESA                        | Texto            |      20 | Despesa orçamentária ou extraorçamentária                     |
+| DATA_PAGAMENTO                      | Data             |         | Data do Pagamento - Formato: AAAA-MM-DD                       |
+| VALOR_EMPENHO                       | Numérico         |    18,2 | Importância paga                                              |
+| CODIGO_TIPO_DOCUMENTO               | Texto            |       2 | Código do Tipo de Documento                                   |
+| DESCRICAO_TIPO_DOCUMENTO            | Texto            |      20 | Descrição do Tipo de Documento                                |
+| NOME_CREDOR                         | Texto            |     100 | Nome do Credor                                                |
+| CPFCNPJ_CREDOR                      | Texto            |      14 | CPF ou CNPJ do Credor (Com máscara por questões de segurança) |
+| TIPO_CREDOR                         | Texto            |      15 | Tipo de Credor (Pessoa Física ou Jurídica)                    |
++-------------------------------------+--------------------------------------------------------------------------------------------+
+ (*) CHAVE PRIMÁRIA
